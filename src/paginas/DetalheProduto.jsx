@@ -1,14 +1,7 @@
-function DetalheProduto() {
+export default function DetalheProduto() {
     return (
         <div>
-            <h2>Todos os Produtos</h2>
-            <ul>
-                <li>Produto 1</li>
-                <li>Produto 2</li>
-                <li>Produto 3</li>
-            </ul>
+            <h1>Detalhe do produto</h1>
         </div>
     )
 }
-
-export default DetalheProduto;

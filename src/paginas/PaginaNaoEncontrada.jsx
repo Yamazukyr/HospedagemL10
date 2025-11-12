@@ -1,11 +1,8 @@
-import React from 'react'
-function PaginaNaoEncontrada() {
+export default function PaginaNaoEncontrada() {
     return (
         <div>
-            <h2>Página Não Encontrada</h2>
-            <p>Desculpe, a página que você está procurando não existe.</p>
+            <h1>Página não encontrada</h1>
+            <p>Verifique o caminho digitado na url do navegador</p>
         </div>
     )
 }
-
-export default PaginaNaoEncontrada
